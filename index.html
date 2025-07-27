@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RavensLabs LLC - Building the Tools of Tomorrow</title>
+  <meta
+    name="description"
+    content="RavensLabs engineers innovative software and AI tools to solve real-world problems—turning concepts into reality for startups, creators, and businesses."
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" type="image/png" href="ravenslabs.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="ravenslabs.png" alt="RavensLabs Logo" />
+      <span>RavensLabs</span>
+    </div>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Hero section">
+      <div class="hero-watermark">
+        <img src="ravenslabs.png" alt="" aria-hidden="true" />
+      </div>
+      <img class="hero-logo" src="ravenslabs.png" alt="RavensLabs Logo" />
+      <h1 class="hero-title">Building the Tools of Tomorrow</h1>
+      <p class="hero-subtitle">
+        RavensLabs engineers innovative software and AI tools to solve
+        real-world problems—turning concepts into reality for startups,
+        creators, and businesses.
+      </p>
+      <a href="#projects">
+        <button class="cta-btn">Explore Our Projects</button>
+      </a>
+    </section>
+
+    <section class="section" id="about-message">
+      <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 1.1rem;">
+        Why We Build
+      </h2>
+      <blockquote class="about-blockquote">
+        RavensLabs was born from the pure joy of building—the same spark that
+        makes a kid push Hot Wheels faster, or dream up a new track.<br /><br />
+        We’re serious about our craft, but we never outgrew that sense of play,
+        wonder, and “what if?” Every tool here is the product of that curiosity,
+        built by hand, just to see what’s possible.
+      </blockquote>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <h2 id="about-title" class="section-title">About RavensLabs</h2>
+      <p>
+        Founded in 2024, RavensLabs is dedicated to creating tools that empower,
+        connect, and inspire. Our mission is to blend innovation,
+        transparency, and quality into every product, while putting user privacy
+        and experience first.
+      </p>
+      <p><em>“From concept to creation—we make things that matter.”</em></p>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title" class="section-title">Game Server Management Software</h2>
+      <div class="project-list">
+        <article class="project-card" tabindex="0" role="region" aria-label="AthenaCore project description">
+          <h3 class="project-title">AthenaCore</h3>
+          <p class="project-desc">ARK ASA Server Manager</p>
+        </article>
+        <article class="project-card" tabindex="0" role="region" aria-label="AshCore project description">
+          <h3 class="project-title">AshCore</h3>
+          <p class="project-desc">7 Days to Die Server Manager</p>
+        </article>
+        <article class="project-card" tabindex="0" role="region" aria-label="MineCore project description">
+          <h3 class="project-title">MineCore</h3>
+          <p class="project-desc">Minecraft Server Manager</p>
+        </article>
+        <article class="project-card" tabindex="0" role="region" aria-label="AloftCore project description">
+          <h3 class="project-title">AloftCore</h3>
+          <p class="project-desc">Aloft Server Manager</p>
+        </article>
+        <article class="project-card" tabindex="0" role="region" aria-label="ZomboidCore project description">
+          <h3 class="project-title">ZomboidCore</h3>
+          <p class="project-desc">Project Zomboid Server Manager</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="blog" aria-labelledby="blog-title">
+      <h2 id="blog-title" class="section-title">Blog &amp; News</h2>
+      <p>
+        <strong>July 2025:</strong> RavensLabs LLC launches!<br />
+        Stay tuned for updates, behind-the-scenes, and stories from the lab.<br />
+        (Blog engine coming soon.)
+      </p>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title">Contact Us</h2>
+      <form>
+        <label for="name">Name</label>
+        <input
+          id="name"
+          type="text"
+          placeholder="Your name"
+          required
+          aria-required="true"
+        />
+
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Your email"
+          required
+          aria-required="true"
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="Your message"
+          required
+          aria-required="true"
+        ></textarea>
+
+        <button type="submit" class="cta-btn">Send</button>
+      </form>
+      <p class="contact-email">
+        Or email us at
+        <a href="mailto:info@ravenslabs.com">info@ravenslabs.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 RavensLabs LLC | info@ravenslabs.com
+    <nav aria-label="Social media links">
+      <ul class="social-links">
+        <li><a href="https://github.com/RavensLabs/ravenslabs.github.io">GitHub</a></li>
+       </ul>
+    </nav>
+    <span class="footer-signature">“Never outgrew the Hot Wheels track.”</span>
+  </footer>
+</body>
+</html>

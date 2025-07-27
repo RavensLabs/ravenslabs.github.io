@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RavensLabs | CoreOps Server Tools</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset & base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0a0a0a;
+      color: #eee;
+      line-height: 1.6;
+    }
+    a {
+      color: #61dafb;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #21a1f1;
+    }
+
+    /* Container */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    /* Header */
+    header {
+      background: #121212;
+      padding: 1rem 0;
+      border-bottom: 1px solid #222;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin-top: 0.5rem;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    /* Main */
+    main {
+      padding: 2rem 0;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: #61dafb;
+    }
+    h3 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #ddd;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    ul li a {
+      font-weight: 600;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      border-top: 1px solid #222;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <h1>RavensLabs</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="coreops.html">CoreOps</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Welcome to RavensLabs</h2>
+      <p>
+        Game Server Tools That Just Work. Our mission is to solve real server problems by building tools that empower players and admins.
+      </p>
+    </section>
+
+    <section>
+      <h3>Our Tools</h3>
+      <ul>
+        <li><a href="gamezones/athenacore.html">AthenaCore - ARK ASA Server Manager</a></li>
+        <li><a href="gamezones/ashcore.html">AshCore - 7 Days to Die Server Manager</a></li>
+        <li><a href="gamezones/minecore.html">MineCore - Minecraft Server Manager</a></li>
+        <li><a href="gamezones/aloftcore.html">AloftCore - Aloft Server Manager</a></li>
+        <li><a href="gamezones/zomboidcore.html">ZomboidCore - Project Zomboid Server Manager</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 RavensLabs. All rights reserved.</p>
+  </footer>
+</body>
+</html>
